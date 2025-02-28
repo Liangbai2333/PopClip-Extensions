@@ -1,0 +1,10 @@
+{
+	"regex": "^\\s*\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\s*$",
+	"description": "A IP Query",
+	"identifier": "site.liangbai.ipquery",
+	"name": "解析IP地址",
+	"module": "query.js",
+    "entitlements": ["network"],
+	"note" : "Updated for macOS 12.0 Monterey.",
+	"popclipVersion": 3745
+}

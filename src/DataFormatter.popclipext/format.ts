@@ -1,8 +1,8 @@
 import * as yaml from 'js-yaml'
 
 export const action: ActionFunction = async (input: Input) => {
-    let matched = input.regexResult!![1]
-    let text = input.text
+    let matched: string = input.regexResult![1]
+    let text: string = input.text
 
     try {
         if (matched === "[" || matched === "{") {
