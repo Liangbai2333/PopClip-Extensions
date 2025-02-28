@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2024",
+    "module": "commonjs",
+    "rootDirs": ["./"],
+    "types": ["@popclip/types"],
+    "outDir": "./build",
+    /* Type Checking */
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
